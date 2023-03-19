@@ -1,0 +1,19 @@
+
+@
+requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
+J
+app/core/tests/__init__.py,e/c/ec8b4c8d857a421d74a69f3d8ef4b48177734284
+C
+app/app/settings.py,1/5/15553f0d0a591c8d0334d386110c265a5f8f17f4
+O
+app/core/management/__init__.py,f/a/fa45455117f0eca8924a711e3dc94e3ead08c8bf
+X
+(app/core/management/commands/__init__.py,9/1/918916f5bb8a5ee805fea7310442e1268d6ae934
+O
+app/core/tests/test_commands.py,7/e/7e641c90f6d4ce6afc47f2353385fefacacc5690
+A
+app/core/admin.py,4/a/4a49d05f610b33bcfb98a682ea04ff46e10ac04f
+B
+app/core/models.py,7/8/783da6f384d3fcbe7ecde6e89739f14c0a218923
+[
++app/core/management/commands/wait_for_db.py,3/6/368b1ccee4efed3c812a742724cb62eaf0251e81

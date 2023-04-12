@@ -73,7 +73,8 @@ class PrivateRecipeApiTests(TestCase):
 
     def setUp(self):
         self.client = APIClient()
-        self.user = create_user(email='user1@example.com', password='testpass123')
+        self.user = create_user(email='user1@example.com',
+                                password='testpass123')
         self.client.force_authenticate(self.user)
 
     def test_retrieve_recipes(self):
@@ -90,7 +91,8 @@ class PrivateRecipeApiTests(TestCase):
 
     def test_recipe_list_limited_to_user(self):
         """Test list of recipes is limited to authenticated user."""
-        other_user = create_user(email='other@example.com', password='testpass123')
+        other_user = create_user(email='other@example.com',
+                                 password='testpass123')
         create_recipe(user=other_user)
         create_recipe(user=self.user)
 
@@ -220,7 +222,8 @@ class PrivateRecipeApiTests(TestCase):
         recipe = recipes[0]
         self.assertEqual(recipe.tags.count(), 2)
         for tag in payload['tags']:
-            exists = recipe.tags.filter(name=tag['name'], user=self.user).exists()
+            exists = recipe.tags.filter(name=tag['name'],
+                                        user=self.user).exists()
             self.assertTrue(exists)
 
     def test_create_recipe_with_existing_tags(self):
@@ -241,7 +244,8 @@ class PrivateRecipeApiTests(TestCase):
         self.assertEqual(recipe.tags.count(), 2)
         self.assertIn(tag_indian, recipe.tags.all())
         for tag in payload['tags']:
-            exists = recipe.tags.filter(name=tag['name'], user=self.user).exists()
+            exists = recipe.tags.filter(name=tag['name'],
+                                        user=self.user).exists()
             self.assertTrue(exists)
 
     def test_create_tag_on_update(self):
@@ -376,7 +380,8 @@ class ImageUploadTests(TestCase):
 
     def setUp(self):
         self.client = APIClient()
-        self.user = get_user_model().objects.create_user('user@example.com', 'password123')
+        self.user = get_user_model().objects.create_user('user@example.com',
+                                                         'password123')
         self.client.force_authenticate(self.user)
         self.recipe = create_recipe(user=self.user)
 

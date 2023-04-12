@@ -24,17 +24,11 @@ L
 app/recipe/tests/__init__.py,4/a/4a0254a67d61bf2508ed8c63ca30f7728dd7fe14
 X
 (app/core/management/commands/__init__.py,9/1/918916f5bb8a5ee805fea7310442e1268d6ae934
-O
-app/user/tests/test_user_api.py,d/9/d9dbdadb6c1ac5aeac0afab655cbb995170bee24
 G
 app/user/serializers.py,f/a/fa17d08d006628e3dba939e826f244c89d84aa1a
 D
 app/user/__init__.py,5/2/522721eacf6279d8c3b04394de7fa79b78619bd0
 ^
 .app/core/migrations/0003_auto_20230331_1852.py,e/0/e0294bea2da0ebb589633f37a339eca4f623c147
-Q
-!app/recipe/tests/test_tags_api.py,5/7/575449ac454f9131f5ed3ca1cffb1a3e4f6e7179
 ^
 .app/core/migrations/0004_auto_20230405_1629.py,3/3/331bdd060c91e6bc5d3f75f080207aac05be82b7
-A
-app/core/admin.py,4/a/4a49d05f610b33bcfb98a682ea04ff46e10ac04f

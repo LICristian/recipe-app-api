@@ -10,23 +10,31 @@ D
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-?
-app/app/urls.py,e/3/e388adcb822ad487cac97efd2204e600327c1313
-@
-requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
 J
 app/core/tests/__init__.py,e/c/ec8b4c8d857a421d74a69f3d8ef4b48177734284
+[
++app/core/management/commands/wait_for_db.py,3/6/368b1ccee4efed3c812a742724cb62eaf0251e81
+J
+app/user/tests/__init__.py,d/d/ddbe817f06596c91a607978bfb052556f4ab66a6
+R
+"app/core/migrations/0002_recipe.py,6/4/640c4de7ecbbf46c1d27ff28b5e458b409847cb2
+O
+app/core/management/__init__.py,f/a/fa45455117f0eca8924a711e3dc94e3ead08c8bf
+L
+app/recipe/tests/__init__.py,4/a/4a0254a67d61bf2508ed8c63ca30f7728dd7fe14
 X
 (app/core/management/commands/__init__.py,9/1/918916f5bb8a5ee805fea7310442e1268d6ae934
 O
-app/core/management/__init__.py,f/a/fa45455117f0eca8924a711e3dc94e3ead08c8bf
-C
-app/app/settings.py,1/5/15553f0d0a591c8d0334d386110c265a5f8f17f4
-O
-app/core/tests/test_commands.py,7/e/7e641c90f6d4ce6afc47f2353385fefacacc5690
+app/user/tests/test_user_api.py,d/9/d9dbdadb6c1ac5aeac0afab655cbb995170bee24
+G
+app/user/serializers.py,f/a/fa17d08d006628e3dba939e826f244c89d84aa1a
+D
+app/user/__init__.py,5/2/522721eacf6279d8c3b04394de7fa79b78619bd0
+^
+.app/core/migrations/0003_auto_20230331_1852.py,e/0/e0294bea2da0ebb589633f37a339eca4f623c147
+Q
+!app/recipe/tests/test_tags_api.py,5/7/575449ac454f9131f5ed3ca1cffb1a3e4f6e7179
+^
+.app/core/migrations/0004_auto_20230405_1629.py,3/3/331bdd060c91e6bc5d3f75f080207aac05be82b7
 A
 app/core/admin.py,4/a/4a49d05f610b33bcfb98a682ea04ff46e10ac04f
-B
-app/core/models.py,7/8/783da6f384d3fcbe7ecde6e89739f14c0a218923
-[
-+app/core/management/commands/wait_for_db.py,3/6/368b1ccee4efed3c812a742724cb62eaf0251e81

@@ -7,9 +7,6 @@ D
 requirements.dev.txt,e/5/e57a299cbb96b2af11e488452fbe5404e39cecdc
 ;
 app/.flake8,6/2/62243180f4ea09f2fa0ebf32275ded0b719b9d32
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 J
 app/core/tests/__init__.py,e/c/ec8b4c8d857a421d74a69f3d8ef4b48177734284
 [

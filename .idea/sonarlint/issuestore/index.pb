@@ -29,8 +29,6 @@ B
 app/recipe/urls.py,2/6/26034ad29758bb07ea265dc733fc263345825361
 B
 app/core/models.py,7/8/783da6f384d3fcbe7ecde6e89739f14c0a218923
-?
-app/app/urls.py,e/3/e388adcb822ad487cac97efd2204e600327c1313
 O
 app/core/tests/test_commands.py,7/e/7e641c90f6d4ce6afc47f2353385fefacacc5690
 A
@@ -78,3 +76,12 @@ C
 proxy/Dockerfile,4/d/4d12c017ddbc44b8c33a8d078058867001050f81
 ?
 app/app/wsgi.py,d/2/d271f155d1efafd92fcda9c8096034c6356c0d17
+>
+scripts/run.sh,e/9/e93c14acd92a9b9c158d8c5652aeae76952ddef2
+<
+proxy/run.sh,3/2/32e9f65901a7a4d685025e86e4a9272469b12a3d
+:
+
+Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+I
+docker-compose-deploy.yml,5/9/59e68906683b9e58360bdd7f1379e8482ea08de8
